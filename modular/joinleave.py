@@ -8,7 +8,7 @@ __modles__ = "Join"
 __help__ = get_cgr("help_join")
 
 
-@ky.ubot("join", sudo=True)
+@ky.ubot("j", sudo=True)
 @ky.devs("Cjoin")
 async def _(c, m):
     em = Emojik()

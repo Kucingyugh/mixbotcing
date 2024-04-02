@@ -38,7 +38,7 @@ async def digikes_(q):
     return chats
 
 
-@ky.ubot("gcast", sudo=True)
+@ky.ubot("b", sudo=True)
 async def _(c: nlx, m):
     em = Emojik()
     em.initialize()
@@ -85,7 +85,7 @@ async def _(c: nlx, m):
     )
 
 
-@ky.ubot("gucast", sudo=True)
+@ky.ubot("u", sudo=True)
 async def _(c: nlx, m):
     em = Emojik()
     em.initialize()

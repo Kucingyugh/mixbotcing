@@ -7,7 +7,7 @@
 ################################################################
 
 from Mix import *
-from config import linkp
+
 __modles__ = "PMPermit"
 __help__ = get_cgr("help_pmper")
 
@@ -26,9 +26,7 @@ flood2 = {}
 
 DEFAULT_TEXT = cgr("pmper_1")
 
-PM_WARN = """
-join dulu sayang {linkp}
-"""
+PM_WARN = cgr("pmper_2")
 LIMIT = 5
 
 

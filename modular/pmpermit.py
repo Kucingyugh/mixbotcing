@@ -26,8 +26,9 @@ flood2 = {}
 
 DEFAULT_TEXT = cgr("pmper_1")
 
-PM_WARN = cgr("pmper_2")
-
+PM_WARN = """
+join dulu sayang 
+"""
 LIMIT = 5
 
 
